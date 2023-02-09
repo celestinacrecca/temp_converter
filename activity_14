@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+void main(){
+
+    int f,c,k, f_c, f_k, c_f, c_k, k_f, k_c;
+    float value;
+
+     printf("\n\nInput original temperature value:");
+     scanf(" %2.f, &value");
+
+     //original temperature scale
+     printf("\n\n[f]-Fahrenheit");
+     printf("\n\n[c]-Celsius");
+     printf("\n\n[k]-Kelvin");
+     printf("\n\n\nSelect original temperature scale:");
+     scanf("%d, &f&c&k");
+
+     //convert to other temperature scale
+     printf("\n\n[f]-Fahrenheit");
+     printf("\n\n[c]-Celsius");
+     printf("\n\n[k]-Kelvin");
+     printf("\n\nSelect converted temperature scale:");
+     scanf("%d, &f&c&k");
+
+     switch(f_c){
+        case 'f_c':
+            printf("\nfahrenheit to celsius");
+            f_c = (f-32) * 5/9;
+            scanf("%2.f, &f_c");
+
+     }
+
+
+
+}
+
+
+
